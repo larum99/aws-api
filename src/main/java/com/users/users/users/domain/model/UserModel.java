@@ -9,10 +9,10 @@ public class UserModel {
     public UserModel() {
     }
 
-    public UserModel(String identityDocument, String name, String email) {
-        this.identityDocument = identityDocument;
+    public UserModel(String name, String email, String identityDocument) {
         this.name = name;
         this.email = email;
+        this.identityDocument = identityDocument;
     }
 
     public String getIdentityDocument() {
