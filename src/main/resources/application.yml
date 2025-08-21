@@ -5,7 +5,7 @@ spring:
   application:
     name: aws-api
   datasource:
-    url: jdbc:mysql://aws-api.ckbckiw04402.us-east-1.rds.amazonaws.com/aws_api
+    url: jdbc:mysql://${DB_HOST}:${DB_PORT}/${DB_NAME}
     username: ${DB_USER}
     password: ${DB_PASSWORD}
   jpa:

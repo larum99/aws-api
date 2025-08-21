@@ -9,7 +9,7 @@ public class ControllerConstants {
     public static final String BASE_URL = "/api/v1/users";
 
 
-    public static final String SAVE_PATH = "/";
+    public static final String SAVE_PATH = "/save";
 
     public static final String GET_BY_EMAIL_PATH = "/email/{email}";
 

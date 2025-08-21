@@ -1,0 +1,19 @@
+# Carpetas de compilación
+build/
+.gradle/
+
+# Configuración IDE
+.idea/
+.vscode/
+*.iml
+
+# Archivos de sistema
+*.log
+*.tmp
+
+# Control de versiones
+.git
+.gitignore
+
+# Otros
+.DS_Store
